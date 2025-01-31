@@ -1,0 +1,106 @@
+/*main part css */
+main {
+	background: black;
+	color: white;
+}
+
+video {
+	width: 54em;
+	height: 29em;
+	margin: 3rem 3em 0px;
+}
+
+.border-grey {
+	border: 1px solid grey !important;
+}
+
+.project-videos .card2 {
+	height: 12rem;
+	width: 21rem;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 32px !important;
+	opacity: 0.9 !important;
+}
+
+.project-videos .up-next {
+	width: 26rem !important;
+	height: 55rem;
+	overflow: scroll;
+	
+}
+
+.project-videos .v-overflow{
+	position:relative;
+}
+
+.project-videos .hide1{
+	position:relative;
+	bottom:10rem;
+}
+
+.project-videos .card2:hover .rotation {
+	opacity: 0.9;
+}
+
+.project-videos .card2:hover {
+	background-image: none;
+	background-color: grey ;
+}
+
+.project-videos .card2:hover .hide1 {
+	opacity: 0.0;
+}
+
+.project-videos .img-game1:hover {
+	background: grey;
+}
+
+.project-videos .up-next::-webkit-scrollbar {
+	width: 1px;
+}
+
+.project-videos .up-next::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px #212529; 
+	border-radius: 10px;
+}
+
+
+.project-videos .up-next::-webkit-scrollbar-thumb {
+	background: #212529; 
+  	border-radius: 10px;
+}
+.project-videos .float-right{
+	float: right!important ;
+}
+
+.project-videos .p-img{
+	height: 5rem!important ;
+	width: 5rem!important  ;
+}
+
+.project-videos .d-wrap{
+	line-height: 2.5em ;
+}
+
+.project-videos #more{
+	display: none;
+}
+.project-videos .ui-widgets {
+    width: 4.8rem;
+    height: 4.8rem;
+    border: 0.3rem solid palegreen;
+    text-align: center;
+    box-sizing: border-box;
+}
+.project-videos textarea{
+	height: 20vh;
+	width: 75vw;
+	background-color:#212529;	
+	outline:1px solid  red;
+}
+
+.project-videos .outline:hover{
+	outline:2px solid  red;
+	border: 2px solid #212529!important ;
+}

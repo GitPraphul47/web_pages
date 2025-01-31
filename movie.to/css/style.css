@@ -1,0 +1,757 @@
+.bg-black {
+    background-color: #191a1d !important;
+}
+
+.text-grey {
+    color: grey !important;
+}
+
+.bg-color-black {
+    background-color: #191a1d !important;
+}
+
+.outline1 {
+    outline: none !important;
+    border-radius: 0px 30px 30px 0px !important;
+    padding-right: 20rem !important;
+}
+
+.border-rounded {
+    border: 1px solid #191a1d !important;
+    border-radius: 30px 0px 0px 30px !important;
+}
+
+.bg-voilet {
+    background-color: #8035e1 !important;
+}
+
+.float {
+    float: left !important;
+}
+
+.list {
+    list-style-type: none !important;
+}
+
+.bg-nav {
+    background-color: #3c3f46;
+}
+
+.fa-wifi:hover {
+    color: black !important;
+    background-color: #fff !important;
+}
+
+.bg-nav:hover {
+    opacity: 0.5;
+}
+
+.drop-down {
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    border-radius: 7px;
+}
+
+.drop-cont:hover .drop-down {
+    display: block !important;
+}
+
+.d-none {
+    display: none;
+}
+
+.bg-red:hover {
+    background-color: #dc3545 !important;
+}
+
+.p-fxd {
+    position: fixed;
+    z-index: 999;
+}
+
+.w-0 {
+    width: 5rem !important;
+}
+
+.txt-danger-hover {
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+.txt-danger-hover:hover {
+    color: #dc3545 !important;
+}
+
+.hover-line {
+    position: relative;
+}
+
+.hover-line::after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #dc3545 !important;
+    width: 0%;
+    transition: 0.6s;
+    left: 0;
+    bottom: 0px;
+}
+
+.border-btm {
+    border-bottom: 2px solid #dc3545;
+}
+
+.hover-line:hover::after {
+    border-bottom: 2px solid #dc3545 !important;
+    width: 100%;
+}
+
+.icon-dropdown {
+    display: none;
+    position: absolute;
+    width: 16rem !important;
+    margin-left: -3em !important;
+    z-index: 33;
+}
+
+.drop-icon:hover .icon-dropdown {
+    display: block;
+}
+
+.icon-dropdown2 {
+    display: none;
+    position: absolute;
+    left: 127px;
+    bottom: -15em;
+}
+
+.drop-icon2:hover .icon-dropdown2 {
+    display: block;
+}
+
+.dropdown-1 {
+    position: absolute;
+    top: 30px;
+    left: -66.9em;
+    width: 95.53vw;
+    visibility: hidden;
+    height: 50vh !important;
+    z-index: 55;
+}
+
+.hover-line:hover .dropdown-1 {
+    visibility: visible;
+}
+
+.dropdown-1 .text-center {
+    text-align: center !important;
+    margin-left: 21em;
+}
+
+.bg-grey {
+    background-color: grey !important;
+}
+
+.bg-grey:hover {
+    background-color: #dc3545 !important;
+}
+
+.movies-dropdown {
+    position: absolute;
+    width: 97vw;
+    left: 3px;
+    background-color: #212529;
+}
+
+.movies-drop-height {
+    height: 12em;
+    width: 21em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.9 !important;
+}
+
+.movies-drop-height:hover {
+    background-image: none;
+    background-color: grey;
+
+}
+
+.img-zomb {
+    background-image: url('../images/zombie.jpg');
+}
+
+.img-zomb:hover {
+    opacity: 0.0;
+    background-color: grey;
+}
+
+.d-inline {
+    display: inline-flex !important;
+}
+
+.v-overflow {
+    height: 10em;
+    width: 19em;
+    position: absolute;
+    overflow: hidden;
+}
+
+.bg-info-3 {
+    padding: 7px;
+    height: 28px;
+    margin: 5px;
+    background-color: skyblue;
+}
+
+.img-cosplay {
+    background-image: url('../images/cosplay-.jpg');
+
+}
+
+.img-cosplay:hover {
+    opacity: 0.9;
+}
+
+.img-hand {
+    background-image: url('../images/hand.jpg');
+}
+
+.img-hand:hover {
+    opacity: 0.9;
+}
+
+.img-soldier {
+    background-image: url('../images/soldiers.jpg');
+}
+
+.img-soldier:hover {
+    opacity: 0.9;
+}
+
+.music-dropdown {
+    display: none !important;
+    position: absolute;
+    width: 97vw;
+    left: 0px;
+    background-color: #212529;
+}
+
+.dropdown-1 .rounded-pill:hover .music-dropdown {
+    display: block !important;
+}
+
+.img-music1 {
+    background-image: url('../images/music1.jpg');
+
+}
+
+.img-music2 {
+    background-image: url('../images/music2.jpg');
+
+}
+
+.img-high-heels {
+    background-image: url('../images/high-heels.jpg');
+
+}
+
+.img-guitar {
+    background-image: url('../images/guitar.jpg');
+
+}
+
+.sports-dropdown {
+    display: none !important;
+    position: absolute;
+    width: 97vw;
+    left: 3px;
+    background-color: #212529;
+}
+
+.dropdown-1 .rounded-pill:hover .sports-dropdown {
+    display: block !important;
+}
+
+.img-sports1 {
+    background-image: url('../images/sports1.jpg');
+}
+
+.img-sports2 {
+    background-image: url('../images/pexels.jpg');
+}
+
+.img-sports3 {
+    background-image: url('../images/corner-ball.jpg');
+}
+
+.img-sports4 {
+    background-image: url('../images/leah-hetteberg.jpg');
+}
+
+.img-game1 {
+    background-image: url('../images/gaming/cod.jpg');
+}
+
+.img-game2 {
+    background-image: url('../images/gaming/game2.jpg');
+}
+
+.img-game3 {
+    background-image: url('../images/gaming/game3.jpg');
+}
+
+.img-game4 {
+    background-image: url('../images/gaming/game4.jpg');
+}
+
+.img-shows1 {
+    background-image: url('../images/tv_show/show1.jpg');
+}
+
+.img-shows2 {
+    background-image: url('../images/tv_show/show2.jpg');
+}
+
+.img-shows3 {
+    background-image: url('../images/tv_show/show3.jpg');
+
+}
+
+.img-shows4 {
+    background-image: url('../images/tv_show/show4.jpg');
+}
+
+.img-entertainment1 {
+    background-image: url('../images/Entertainment/ent1.jpg');
+}
+
+.img-entertainment2 {
+    background-image: url('../images/Entertainment/ent2.jpg');
+}
+
+.img-entertainment3 {
+    background-image: url('../images/Entertainment/ent3.jpg');
+}
+
+.img-entertainment4 {
+    background-image: url('../images/Entertainment/ent4.jpg');
+}
+
+.img-romance1 {
+    background-image: url('../images/Romance/rom1.jpg');
+}
+
+.img-romance2 {
+    background-image: url('../images/Romance/rom2.jpg');
+}
+
+.img-romance3 {
+    background-image: url('../images/Romance/rom3.jpg');
+}
+
+.img-romance4 {
+    background-image: url('../images/Romance/rom4.jpg');
+}
+
+.text-pink {
+    color: pink !important;
+}
+
+.text-purple {
+    color: purple !important;
+}
+
+.hide {
+    opacity: 1;
+}
+
+.rotation {
+    opacity: 0.0;
+    width: 50px;
+    animation: rotate 0.4s infinite;
+    margin: 30px auto 0px;
+}
+
+.movies-drop-height:hover .rotation {
+    opacity: 0.9;
+}
+
+.movies-drop-height:hover .hide1 {
+    opacity: 0.0;
+}
+
+.square-red {
+    background-color: red;
+    position: relative;
+}
+
+.height {
+    height: 22px;
+    width: 22px;
+    margin: 3px;
+}
+
+.square-yellow {
+    background-color: yellow;
+    position: relative;
+}
+
+.square-blue {
+    background-color: blue;
+    position: relative;
+}
+
+.square-green {
+    background-color: green;
+    position: relative;
+}
+
+/*-----header css ends here --*/
+/*----main part css starts here----*/
+main {
+    background-color: black;
+}
+
+.box{
+    margin: 10rem 12rem ;
+}
+
+.font1{
+    font-size: 6em;
+    font-weight: 700;
+}
+.img-container {
+    background-image: url('../images/zombie.jpg');
+    height: 45.5em !important;
+    width: 99vw !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 1px;
+}
+
+.img-container1 {
+    background-image: url('../images/cosplay-.jpg');
+    height: 45.5em !important;
+    width: 99vw !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 1px;
+}
+
+.img-container2 {
+    background-image: url('../images/hand.jpg');
+    height: 45.5em  !important;
+    width: 99vw !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 1px;
+    position: relative;
+    left: -3.4em ;
+}
+
+.new-movies .bg-img-warcraft {
+    background-image: url('../images/new_movies/warcraft-movie.jpg');
+}
+
+.new-movies .bg-img-fashion {
+    background-image: url('../images/new_movies/fashion.jpg');
+}
+
+.new-movies .bg-img-bruno {
+    background-image: url('../images/new_movies/bruno.jpg');
+}
+
+.new-movies .bg-img-desperate {
+    background-image: url('../images/new_movies/desperate.jpg');
+}
+
+.new-movies .bg-img-woman {
+    background-image: url('../images/new_movies/woman.jpg');
+}
+
+.new-movies .bg-img-broken-city {
+    background-image: url('../images/new_movies/kuala-lumpur.jpg');
+}
+
+.new-movies .bg-img-theater-of-war {
+    background-image: url('../images/new_movies/theater-of-war.jpg');
+}
+
+.new-movies .bg-img-pexels {
+    background-image: url('../images/new_movies/pexels.jpg');
+}
+
+.new-movies .bg-img-hand {
+    background-image: url('../images/new_movies/hand.jpg');
+}
+
+.new-movies .bg-img-cosplay {
+    background-image: url('../images/new_movies/cosplay.jpg');
+}
+
+.new-movies .card1 {
+    height: 21rem;
+    width: 14rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 10px 15px !important;
+}
+
+.new-movies .card1:hover {
+    height: 21rem;
+    width: 14rem;
+    background-color: grey !important;
+    background-image: none;
+}
+
+.new-movies .card1 .d-flex {
+    display: inline-flex;
+}
+
+.card1:hover .hide {
+    opacity: 0.0;
+}
+
+.card1 .hide-2 {
+    display: none !important;
+}
+
+.card1:hover .hide-2 {
+    display: inline-flex !important;
+}
+
+.new-movies .card1 .hide-2 .position-overlap {
+    position: relative;
+    left: -21%;
+}
+
+.fs-6 {
+    font-size: 10px !important;
+}
+
+.card1:hover .rotation {
+    opacity: 0.9;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.new-Audio .music {
+    margin: 10px 13px !important;
+    width: 14rem !important;
+}
+
+.new-Audio .card1 {
+    height: 21rem;
+    width: 14rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.new-Audio .img-music-1 {
+    background-image: url('../images/new-Audio/music1.jpg');
+}
+
+.new-Audio .img-music-2 {
+    background-image: url('../images/new-Audio/music2.jpg');
+}
+
+.new-Audio .img-music-3 {
+    background-image: url('../images/new-Audio/music3.jpg');
+}
+
+.new-Audio .img-music-4 {
+    background-image: url('../images/new-Audio/music4.jpg');
+}
+
+.new-Audio .img-music-5 {
+    background-image: url('../images/new-Audio/music5.jpg');
+}
+
+.new-Audio .img-music-6 {
+    background-image: url('../images/new-Audio/music6.jpg');
+}
+
+.new-Audio .img-music-7 {
+    background-image: url('../images/new-Audio/music7.jpg');
+}
+
+.new-Audio .img-music-8 {
+    background-image: url('../images/new-Audio/music8.jpg');
+}
+
+.new-Audio .img-music-9 {
+    background-image: url('../images/new-Audio/music9.jpg');
+}
+
+.new-Audio .img-music-10 {
+    background-image: url('../images/new-Audio/music10.jpg');
+}
+
+.premium-movies .card1 {
+    height: 16rem;
+    width: 27rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5px !important;
+}
+
+.premium-movies .card1:hover {
+    height: 16rem;
+    width: 27rem;
+    background-color: grey !important;
+    background-image: none;
+}
+
+.premium-movies .card1 .hide-2 {
+    display: none !important;
+    position: relative;
+    top: -20px;
+}
+
+.premium-movies .card1:hover .hide-2 {
+    display: inline-flex !important;
+}
+
+.premium-movies .img-1 {
+    background-image: url('../images/Premium_Movies/img-1.jpg');
+}
+
+.premium-movies .img-2 {
+    background-image: url('../images/Premium_Movies/img-2.jpg');
+}
+
+.premium-movies .img-3 {
+    background-image: url('../images/Premium_Movies/img-3.jpg');
+}
+
+.premium-movies .img-4 {
+    background-image: url('../images/Premium_Movies/img-4.jpg');
+}
+
+.premium-movies .img-5 {
+    background-image: url('../images/Premium_Movies/img-5.jpg');
+}
+
+.premium-movies .img-6 {
+    background-image: url('../images/Premium_Movies/img-6.jpg');
+}
+
+.high-rated .view-btn {
+    position: relative;
+    left: 64rem;
+}
+
+.high-rated .bt-drop {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 0;
+    padding-left: 0;
+    right: 0;
+    width: 12rem;
+}
+
+.high-rated .rounded:hover .bt-drop {
+    visibility: visible;
+}
+
+.high-rated .card1 {
+    height: 22rem;
+    width: 19rem;
+    margin: 18px !important;
+}
+
+.high-rated .img-measure {
+    height: 10rem;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.high-rated .hr-1 {
+    background-image: Url('../images/high-rated/hr-1.jpg');
+}
+
+.high-rated .hr-3 {
+    background-image: Url('../images/high-rated/hr-3.jpg');
+}
+
+.high-rated .hr-4 {
+    background-image: Url('../images/high-rated/hr-4.jpg');
+}
+
+.high-rated .hr-5 {
+    background-image: Url('../images/high-rated/hr-5.jpg');
+}
+
+.high-rated .hr-6 {
+    background-image: Url('../images/high-rated/hr-6.jpg');
+}
+
+.high-rated .hr-7 {
+    background-image: Url('../images/high-rated/hr-7.jpg');
+}
+
+.high-rated .hr-8 {
+    background-image: Url('../images/high-rated/hr-8.jpg');
+}
+
+.high-rated .hr-14 {
+    background-image: Url('../images/high-rated/hr-14.jpg');
+}
+
+.high-rated .flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.high-rated .content {
+    width: 19rem;
+    display: none;
+}
+
+.high-rated #loadMore {
+    width: 200px;
+    color: #fff;
+    display: block;
+    margin: auto !important;
+    border: 1px solid transparent;
+    background-color: red;
+    transition: .3s;
+}
+
+.high-rated #loadMore:hover {
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    text-decoration: none;
+}
+
+.high-rated .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+}
+
+/*main part css ends here */
+/*footer css starts here */
+footer .border-btm-2 {
+    border-bottom: 2px dotted grey !important;
+}
+
+footer .foot-icon {
+    font-size: 30px;
+    padding: 15px 15px;
+    border-radius: 73%;
+    margin: 0 18px;
+}
+footer .f-img2{
+    position: relative!important ;
+    margin-left: -35px!important ;
+}
+/*footer css  ends here */
+
