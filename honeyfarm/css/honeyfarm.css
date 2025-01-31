@@ -1,0 +1,950 @@
+*{
+	font-family: sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+
+	width: 100vw;
+}
+.header{
+	background-image: linear-gradient(to left, rgba(186,186, 186, .01), rgba(255, 245, 252, 0.55)),
+	url('../images/honeyglassbox.jpg');
+	background-size: 100%;
+	height: 110vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.navbar{
+	background:white ;
+	margin-top: 42px ;
+	padding: 0;
+	height:70px ;
+	position: relative;
+	display: inline-flex;
+	width: 100%;
+}
+.navbar .tab {
+	list-style: none ;
+	display: inline-flex;
+	margin: 6px  0 0 80px ;
+	position: absolute;
+}
+.navbar .tab  li{
+	margin: 9px 22px ;
+	border-bottom:2px solid #fff;
+	padding: 10px 2px ;
+	transition: 0.85s;
+}
+.navbar .tab  #li-home {
+	border-bottom:2px solid #d1a044;
+}
+.navbar .tab  li:hover{
+	border-bottom:2px solid #d1a044;
+}
+.navbar .tab li .product-dropdown{
+	list-style: none;
+	display:none;
+	position: absolute;
+	margin: 0px -41px ;
+}
+.navbar .tab li:hover .product-dropdown{
+	display: block;
+}
+.navbar .tab li .product-dropdown li {
+	border: 1px solid white ;
+	background: white ;
+	margin:  25px 0;
+	padding: 10px 5px ;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	height: AUTO ;
+	width: auto;
+}
+.navbar .tab li .product-dropdown li:hover{
+	border-bottom: none;
+	background-color: #fff;
+}
+.navbar .tab li .product-dropdown li a {
+	text-decoration: none;
+	color: #000;
+	padding: 10px ;
+	border:1px solid #fff;
+	font-size: 17px ;
+	background: #fff;
+	font-family: Roboto Condensed;
+	word-spacing: 2px ;
+}
+.navbar .tab li .product-dropdown li a:hover{
+	color: #d1a044;
+}
+.navbar .tab li .product-dropdown2{
+	list-style: none;
+	display:none;
+	position: absolute;
+	margin: 0px -41px ;
+}
+.navbar .tab li:hover .product-dropdown2{
+	display: block ;
+}
+.navbar .tab li .product-dropdown2 li {
+	border: 1px solid white ;
+	background-color: white ;
+	margin:  25px 0px 0px ;
+	padding: 10px 5px ;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	height: AUTO ;
+	width: auto;
+}
+.navbar .tab li .product-dropdown2 .li-2 {
+	border: 1px solid white ;
+	background-color: white ;
+	margin:  0px 0px ;
+	padding: 10px 5px ;
+	height: AUTO ;
+	width: auto;
+}
+.navbar .tab li .product-dropdown2 li:hover{
+	border-bottom: none;
+	background-color: white ;
+	border: 1px solid white ;
+}
+.navbar .tab li .product-dropdown2 li a {
+	text-decoration: none;
+	color: #000;
+	padding: 10px 15px ;
+	border:1px solid #fff;
+	font-size: 17px ;
+	background: #fff;
+	font-family: Roboto Condensed;
+	word-spacing: 2px ;
+}
+.navbar .tab li .product-dropdown2 li a:hover{
+	color: #d1a044;
+}
+.navbar .tab  li a {
+	text-decoration: none;
+	color: black;
+	word-spacing: 5px ;
+	font-size: 15px ;
+}
+.navbar img{
+	height: 100px ;
+	width: 151px ;
+	background: #fff;
+	position:relative ;
+	border-radius: 50% ;
+	margin: 0 0 0 44vw ;
+	bottom : 30px ;
+	padding: 10px ;
+}
+.navbar .icons {
+	float: right;
+	position: relative;
+	list-style: none;
+	margin-left: 10em ;
+}
+.navbar .icons li{
+	display: inline-block;
+}
+/*icons css*/
+.navbar .icons li .fa{
+  padding: 5px 1px;
+  font-size: 18px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+  border: 2px solid #d1a044;
+  border-radius: 50%;
+}
+.navbar .icons li .fa:hover{
+	opacity:0.3;
+}
+.navbar .icons li .fa-facebook{
+  background: #fff;
+  color:#a37136;
+}
+.navbar .icons li .fa-twitter{
+  background: #fff;
+  color:#a37136;
+}
+.navbar .icons li .fa-youtube-play{
+  background: #fff;
+  color:#a37136;
+}
+.navbar .icons li .fa-instagram{
+  background: #fff;
+  color:#a37136;
+}
+
+.navbar .icons li #btn{
+	background-color: #f1c36d;
+	color:#58260f; 
+	border:none;
+	font-size: 17px ;
+	border-radius: 23px ;
+	padding:7px 21px ;
+	margin-left: 53px ;
+	transition: 0.8s;
+}
+.navbar .icons li #btn:hover{
+	background-color:#d1a044 ;
+	color:#c1c1c1;
+}
+.header .text-inside{
+	margin:4.4em  0 2em 10em ;
+}
+.header .text-inside h1{
+	font-size: 4.8em  ;
+	font-family: system-ui;
+	font-weight: 700;
+	line-height: 80px ;
+	letter-spacing: -4px ;
+	margin-bottom: 25px ;
+}
+.header .text-inside p{
+	font-size: 18px;
+}
+.header .text-inside .btn-1{
+	font-size: 17px ;
+	border: 2px solid #f1c36d;
+	background-color: #f1c36d;
+	border-radius: 70px;
+	padding: 10px 20px ;
+	transition: 1s;
+	margin-top: 1.5em ;
+}
+.header .text-inside .btn-1:hover{
+	color: #c1c1c1;
+	border: 2px solid #b48955;
+	background-color: #b48955;
+}
+.header .text-inside .btn-2{
+	font-size: 20px ;
+	border: 2px solid #f1c36d;
+	border-radius: 70px;
+	padding: 8px 15px ;
+	transition: 1s;
+	margin-top: 1.5em ;
+}
+.header .text-inside .btn-2:hover{
+	background-color: #f1c36d;
+}
+.header .box-cards {
+	display: inline-flex;
+	margin:10px 2em 10px 6em  ;
+}
+.header .box-cards .box {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 18em ;
+	width: 26em ;
+	background-color: #fff;
+	border-radius: 9px ;
+	margin: 1em ;
+}
+.header .box-cards .box:hover{
+	box-shadow: 0 9px 17px 0 rgba(0, 0, 0, 0.2), 0 13px 41px 0 rgba(0, 0, 0, 0.19);
+}
+.header .box-cards .box img {
+	height: 5em ;
+	width: 5em ;
+	margin: 2em 10.5em  0px ;
+}
+.header .box-cards .box h2{
+	margin: 5px 4.8em 2px ;
+	font-size: 28px ;
+	font-family: Bebas Neue;
+}
+.header .box-cards .box .h2{
+	margin: 5px 5.5em 2px;
+  font-size: 28px;
+  font-family: Bebas Neue;
+}
+.header .box-cards .box p{
+	text-align: center;
+	font-size: 1.2em ;
+	margin-top: 0.7em ;
+}
+.header .box-cards .box button{
+	margin-left: 8em ;
+	font-size: 17px ;
+	border: 2px solid #f1c36d;
+	background-color: #f1c36d;
+	border-radius: 70px;
+	padding: 10px 20px ;
+	transition: 1s;
+}
+.header .box-cards .box button:hover{
+	color: #c1c1c1;
+	border: 2px solid #b48955;
+	background-color: #b48955;
+}
+/*css regardfing experience and about us part */
+.main {
+	position: relative;
+	margin:15em 0em 2em ;
+}
+.main .experience {
+	display:inline-flex;
+	margin: 1em 6.4em ;
+}
+.main .experience .card-24{
+	background-image: url('../images/honey-and-pollen.jpg');
+	background-size: 100%;
+	height: 60vh ;
+	width: 44vw;
+	margin: 0;
+}
+.main .experience .card-24 .box1{
+	height: 9em ;
+	width: 13em ;
+	background-color: #fff;
+	border-radius: 8px ;
+	margin-left: 1em;
+	margin-top: -0.4em ;
+}
+.main .experience .card-24 .box1 h1{
+	font-size: 74px ;
+	color: #a37136;
+	margin-top : 0;
+	margin-left: 0.5em ;
+	margin-bottom: 3px ;
+	font-family: cursive;
+}
+.main .experience .card-24 .box1 p{
+	margin-left: 1.8em ;
+	font-family: calibri;
+	font-size: 17px;
+	margin-top: 5px ;
+}
+.main .experience .text-part{
+	margin:1em  4em  ;
+}
+.main .experience .text-part h3{
+	color: #bc9564;
+	font-size: 20px ;
+	margin: 0 0 1em 0.5em;
+}
+.main .experience .text-part H1{
+	font-size: 2.6em ;
+	margin: 0 0 0.2em 0.2em;
+	font-family: Bebas Neue;
+	letter-spacing: 1px ;
+}
+.main .experience .text-part p{
+	font-size: 17px ;
+	margin: 0 0 1em 0.5em;
+}
+.main .experience .text-part button{
+	font-size: 20px ;
+	border: 2px solid #f1c36d;
+	background-color: #f1c36d;
+	border-radius: 70px;
+	padding: 10px 20px ;
+	transition: 1s;
+	margin-top: 1em ;
+}
+.main .experience .text-part button:hover{
+	color: #c1c1c1;
+	border: 2px solid #b48955;
+	background-color: #b48955;
+}
+.main .experience .text-part img{
+	size: 100%;
+	height: 13em ;
+	width: 12em ;
+	position: absolute;
+	margin-left: 7em ;
+}
+/*--------------------------------css regarding about us ends  here ---------------------------*/
+/*-----------------------------css for experience best honey part --------------*/
+.main .natural-honey {
+	position: relative;
+	background-image:linear-gradient(to left, rgb(45 44 44 / 44%), rgb(10 9 9 / 78%)), url('../images/honey-and-honeycomb-slice.jpg');
+	height: 80vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 8em;
+}
+.main .natural-honey .bg-natural-honey{
+	text-align: center;
+	padding-top: 4em;
+} 
+.main .natural-honey .bg-natural-honey h3{
+	color: #eec16a;
+}
+.main .natural-honey .bg-natural-honey h1{
+	color: #fff;
+	font-size: 3.4em ;
+}
+.main .natural-honey .bg-natural-honey p{
+	font-size: 18px ;
+	color: #fff;
+}
+.main .natural-honey .bg-natural-honey button{
+	font-size: 20px ;
+	border: 2px solid #f1c36d;
+	background-color: #f1c36d;
+	border-radius: 70px;
+	padding: 10px 20px ;
+	transition: 1s;
+	margin-top: 1em ;
+}
+.main .natural-honey .bg-natural-honey button:hover{
+	color: #c1c1c1;
+	border: 2px solid #b48955;
+	background-color: #b48955;
+
+}
+/*------------ CSS REGARDING  EXPERIENCE PART ENDS HERE------------------- */
+/*----------- CSS REGADING OUR SERVICES STARTS  HERE ----------------------*/
+.main .services {
+	position: relative;
+	margin-top: 4em ;
+}
+.main .services .upper-text{
+	text-align: center;
+}
+.main .services .upper-text h3{
+	color:#eec16a;
+}
+.main .services .upper-text h1{
+	font-size: 3em ;	
+ 	font-family: Bebas Neue;
+	letter-spacing: 2px ;
+}
+.main .services .upper-text p{
+	font-size: 18px ;
+	line-height: 25px  ;
+}
+/*----------------------CSS REGARDING OUR SERVICES ENDS HERE ------*/
+/*--------------------css regarding images inside card starts here -----*/
+.main .services .cards {
+	display: inline-flex;
+	margin: 1em 4.4em ;
+}
+.main .services .cards .box {
+	width: 18em ;
+	background-color: #fbf9f6;
+	margin: 10px 1em ;
+}
+.main .services .cards .box .p1{
+	background-color: #342220;
+	color: #fff;
+	margin: 0;
+	border-radius: 10px 10px 0 0 ;
+		font-family:Bebas Neue ;
+	letter-spacing: 1px;
+	font-size: 2em ;
+	padding: 1em 1.1em  ;
+}
+.main .services .cards .box img{
+	height: 13em ;
+	width: 18em ;
+}
+.main .services .cards .box p{
+	font-size: 18px ;
+	line-height: 25px ;
+	padding: 1.5em 15px ; 
+}
+.main .services .cards .box button{
+	font-size: 20px ;
+	border: 2px solid #f1c36d;
+	background-color: #f1c36d;
+	border-radius: 70px;
+	padding: 10px 20px ;
+	transition: 1s;
+	margin: 2em 16px  ;
+	margin-top: 0;
+}
+.main .services .cards .box button:hover{
+	color: #c1c1c1;
+	border: 2px solid #b48955;
+	background-color: #b48955;
+}
+.main .services .cards .box:hover{
+	box-shadow: 0 15px 24px 0 rgba(0, 0, 0, 0.2), 0 20px 48px 0 rgba(0, 0, 0, 0.19);
+}
+/*css regarding honey cards ends here */
+/*-----------------------------------------css for our product starting here------------------------- */
+.main .product {
+	position: relative;
+	display: inline-flex;
+	margin: 3em 4.4em;
+}
+.main .product .pledge{
+	background-image: url('../images/composition.jpg');
+	height: 23em ;
+	width: 16em ;
+	background-repeat: no-repeat;
+	padding: 18em 3em 1em ;
+	margin: 1em;
+}
+.main .product .pledge h1{
+	font-family: inherit;
+	font-size: 44px ;
+}
+.main .product .pledge button{
+	font-size: 20px ;
+	border: 2px solid #f1c36d;
+	background-color: #f1c36d;
+	border-radius: 70px;
+	padding: 10px 20px ;
+	transition: 1s;
+	margin: 2em 0  ;
+	margin-top: 0;
+}
+.main .product .pledge button:hover{
+				color: #c1c1c1;
+	border: 2px solid #b48955;
+	background-color: #b48955;
+}
+.main .product .parent-product {
+	margin: 1em 2em ;
+}
+.main .product .parent-product .upper-text h3 {
+	color:#eec16a;
+}
+.main .product .parent-product .upper-text h1{
+	font-size: 2.4em ;
+}
+.main .product .parent-product .upper-text p{
+	font-size: 18px;
+}
+.main .product .parent-product .lower-cards{
+	display: inline-flex;
+}
+.main .product .parent-product .lower-cards .card-1{
+	height: 28em ;
+	width: 19em ;
+	margin: 0.3em ;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 9px 25px 0 rgba(0, 0, 0, 0.19);
+}
+.main .product .parent-product .lower-cards .card-1 p img{
+	height: 11em ;
+	width: 19em ;
+	border-radius: 5px 5px 0 0;
+	transition: 1s;
+}
+.main .product .parent-product .lower-cards .card-1 p{
+	height: 11em ;
+	width: 19em ;
+	overflow: hidden;
+	padding:0;
+	margin-top: 0;
+}
+.main .product .parent-product .lower-cards .card-1 p img:hover{
+	-ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+.main .product .parent-product .lower-cards .card-1 h1{
+	font-size: 2.5em ;
+	letter-spacing: 0px ;
+	font-family: inherit;
+	margin: 10px 0.8em ;
+}
+.main .product .parent-product .lower-cards .card-1 ul{
+	list-style:none;
+}
+.main .product .parent-product .lower-cards .card-1 ul li{
+	word-spacing: 2px ;
+	line-height: 28px ;
+}
+.main .product .parent-product .lower-cards .card-1 ul li .checkmark{
+	font-size: 20px ;
+	color: #d1a044;
+}
+/**-----------css rearding  product sectioin ends here ------*/
+/*----------- css regarding why chose us --------*/
+.main .choose-us {
+	position: relative;
+	margin: 6em 6.5em 3em ;
+	display: inline-flex;
+}
+.main .choose-us .box-cards {
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 9px 25px 0 rgba(0, 0, 0, 0.19);
+	height: 45em;
+	width: 43em ;
+	padding: 1em ;
+	background: #fff;
+	border-radius: 10px ;
+}
+.main .choose-us .box-cards h3{
+	color:#eec16a;
+}
+.main .choose-us .box-cards h1{
+	font-size: 3em ;
+	margin: 0;
+}
+.main .choose-us .box-cards p{
+	font-size: 18px ;
+}
+.main .choose-us .box-cards ul{
+	list-style: none;
+}
+.main .choose-us .box-cards ul li .h1{
+	font-size: 2em ;
+	margin: 0;
+}
+.main .choose-us .box-cards ul li .h1 .color{
+	color:#eec16a;
+}
+.main .choose-us img{
+	height: 100vh ;
+	width: 60em ;
+	position: absolute;
+	left:28em;
+	z-index: -1;
+	bottom: 6em;
+	border-radius: 10px ;
+}
+/*csss regarding why chose us ends here */
+/*css for graph and honey jar starts here*/
+.main .benefit {
+	position: relative;
+	padding: 4em 6.5em 3em ;
+	display: inline-flex;
+}
+.main .benefit .benefit-1 h3{
+	color: #a37343;
+}
+.main .benefit .benefit-1 h1{
+	font-size: 2.5em ;
+}
+.main .benefit img{
+	height: 25em ;
+	width:30em ;
+	margin:0 1em  ;
+		background-image: linear-gradient(to left, #fff, #ffffffe5),linear-gradient(to right, #fff0, #ffffffa5),
+	url('../images/hexagons-1.jpg');
+	background-repeat: repeat;
+
+}
+.main .benefit .graph{
+	margin: 0 2em ;
+}
+.main .benefit .graph .graph-text .p1{
+	display: inline-block;
+	margin-left: 12em ;
+}
+.main .benefit .graph .graph-text .p2{
+	display: inline-block;
+	margin-left: 9em ;
+}
+.main .benefit .graph .graph-text .p3{
+	display: inline-block;
+	margin-left: 9em ;
+}
+.main .benefit .graph .graph-text .p4{
+	display: inline-block;
+	margin-left: 7em ;
+}
+.main .benefit .graph .graph-text .p5{
+	display: inline-block;
+	margin-left: 7em ;
+}
+.main .benefit .graph .graph-text .antioxident{
+	height: 10px;
+	background: #b4aeae;
+	width: 22em ;
+	border-radius: 10px ;
+}
+.main .benefit .graph .graph-text .antioxident .anti-graph1{
+	height: 10px;
+	background: #f1c36d;
+	width: 20em ;
+	border-radius: 10px ;
+}
+.main .benefit .graph .graph-text .antioxident .anti-graph2{
+	height: 10px;
+	background: #f1c36d;
+	width: 18em ;
+	border-radius: 10px ;
+}
+.main .benefit .graph .graph-text .antioxident .anti-graph3{
+	height: 10px;
+	background: #f1c36d;
+	width: 16em ;
+	border-radius: 10px ;
+}
+.main .benefit .graph .graph-text .antioxident .anti-graph4{
+	height: 10px;
+	background: #f1c36d;
+	width: 19em ;
+	border-radius: 10px ;
+}
+.main .benefit .graph .graph-text .antioxident .anti-graph5{
+	height: 10px;
+	background: #f1c36d;
+	width: 17em ;
+	border-radius: 10px ;
+}
+/*-----------------------css regarding text image and graph part ends here------------ */
+/*---------------------------css for promotion part here -------------------------*/
+.main .promotion {
+	background-image: url('../images/composition.jpg');
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 70vh;
+	width: 100vw;
+	margin: 0;
+}
+.main .promotion .promote{
+	padding:4em 6.5em 3em ;
+	margin: 0;
+	text-align: center;
+}
+.main .promotion .promote h3{
+	color: #a67342;
+}
+.main .promotion .promote h1{
+	font-size: 3em ;
+}
+.main .promotion .promote p{
+	font-size: 18px ;
+}
+.main .promotion .promote button{
+	font-size: 20px ;
+	border: 2px solid #f1c36d;
+	background-color: #f1c36d;
+	border-radius: 70px;
+	padding: 10px 20px ;
+	transition: 1s;
+	margin: 2em 0  ;
+	margin-top: 0;
+}
+.main .promotion .promote button:hover{
+	color: #c1c1c1;
+	border: 2px solid #b48955;
+	background-color: #b48955;
+}
+/*------------------------css regarding promotion part ends here ------------------*/
+/*css regarding testomonials starts here */
+.main .testimonial{
+	margin: 4em 0;
+	padding: 4em 6.5em 3em;
+	background-image: url('../images/World-Map-a.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 71vh;
+}
+.main .testimonial .upper-part{
+
+	display: inline-flex;
+}
+.main .testimonial .upper-part .text {
+	text-align: center;
+	margin-left: 22em ;
+}
+.main .testimonial .upper-part .text h3{
+	color: #a67342;
+}
+.main .testimonial .upper-part .text h1 {
+	font-size: 3em ;
+	margin: 0;
+}
+.main .testimonial .upper-part .text p{
+	font-size: 18px ;
+}
+.main .testimonial .upper-part .hex{
+	margin-left: 15em ;
+	background-image: url('../images/Or-3.jpg');
+	height: 12em ;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 10em ;
+}
+.main .testimonial .upper-part .hex span{
+	font-size: 7em ;
+	margin-left: 0.5em ;
+}
+/*lowerrpart*/
+.main .testimonial .lower-part {
+	display: inline-flex;
+	width: 77vw;
+	overflow: hidden;
+}
+.main .testimonial .lower-part .card{
+	 width: 19em ;
+	 margin: 3em 4em ;
+	 cursor: pointer;
+}
+.main .testimonial .lower-part .card .p1 {
+	background-color: #fbf9f6;
+	padding: 26px ;
+	border-radius: 10px ;
+	font-size: 1.2em ;
+	height: 6em ;
+	width: 17em ;
+	font-family: cursive;
+	line-height: 26px;
+}
+.main .testimonial .lower-part .card .data{
+	display: inline-flex;
+	margin-left: 10px ;
+	margin-top: 2em ;
+}
+.main .testimonial .lower-part .card .data img{
+	height: 4em ;
+	width: 4em ;
+	border-radius: 10px ;
+	border: 2px solid brown ;
+}
+.main .testimonial .lower-part .card .data .card-footer{
+	margin-left: 1em;
+}
+.main .testimonial .lower-part .card .data .card-footer p{
+	margin: 0 ;
+}
+.main .testimonial .lower-part .card .data .card-footer span{
+	color: #d9b165; 
+}
+/**---------------------------css regarding testomonials part ends here-----*/
+/*--------------------css regarding our blog start here ------------*/
+.main .blog {
+ padding:4em 7em 3em ;
+}
+/*--upper-row----*/
+.main .blog .upper-row h3{
+	color: #b77e36;
+}
+.main .blog .upper-row h1{
+	font-size: 3em ;
+	display: inline-block;
+	margin: 0;
+} 
+.main .blog .upper-row button{
+	display: inline-block;
+	font-size: 20px ;
+	border: 2px solid #f1c36d;
+	background-color: #f1c36d;
+	border-radius: 70px;
+	padding: 10px 20px ;
+	transition: 1s;
+	margin: 2em 0  ;
+	margin-top: 0;
+	float:right;
+}
+/*---middle row---*/
+.main .blog .middle-part {
+display: inline-flex;
+}
+.main .blog .middle-part .container{
+	display: inline-flex;
+}
+.main .blog .middle-part .container img{
+	height:15em ;
+	width: 15em ;
+	display: inline-block;
+	margin: 1em ;
+	border-radius: 6px ;
+}
+.main .blog .middle-part .container .market{
+	margin: 1em ;
+	width: 21em ;
+}
+.main .blog .middle-part .container .market h1{
+	letter-spacing: 1px ;
+}
+.main .blog .middle-part .container .market h4{
+	color: #dcae85;
+}
+.main .blog .middle-part .container .market p{
+	width: 21em ;
+}
+/*--------------------css regarding our blog ends here -----------*/
+/*-----------------css regarding main part ends here ------------*/
+/*-------------------css regarding footer starts here ---------------*/
+.footer{
+	background-image: linear-gradient(to left, #180e03e6, #180e03e6),
+	url('../images/hexagons-1.jpg');
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0em .54em 0em ;
+	display: inline-flex;
+	width: 100%;
+}
+/*------------css for left img starts here  --------*/
+.footer .border-padding .left-image{
+	background-color: #fffe;
+	height:20em ;
+	width: 15em ;
+	padding: 1em ;
+	border: 2px dotted black;
+	text-align: center;
+	padding-bottom: 2em ;
+
+}
+.footer .border-padding .left-image p{
+	font-size: 20px;
+	font-family: cursive;
+}
+.footer .border-padding{
+	padding: 1.5em ;
+	background-color: #fffe;
+	width: 17em ;
+	margin-right: 3em ;
+	margin-left: 6em ;
+}
+/*css for right part starts here*/
+.footer .right-part {
+	margin: 1em ;
+	display: inline-block;
+}
+.footer .right-part .up {
+	display: inline-flex;
+	border-bottom: 1px solid grey ;
+
+}
+.footer .right-part ul{
+	list-style: none;
+
+}
+.footer .right-part ul .h2{
+	color: white ;
+	padding: 0.5em;
+	font-size: 30px ;
+	font-weight: 600;
+}
+.footer .right-part ul li{
+	color: #efb952;
+	word-spacing: 2px ;
+	padding: 0.5em;
+	font-size: 20px ;
+}
+.footer .right-part ul li a{
+	text-decoration: none;
+	color: white;
+	transition: 0.8s;
+}
+.footer .right-part ul li a:hover{
+	color:#efb952 ;
+}
+.footer .right-part .ul-3{
+	list-style: none;
+
+}
+.footer .right-part .ul-3 .h2{
+	color: white ;
+	padding: 0.5em;
+	font-size: 30px ;
+	font-weight: 600;
+}
+.footer .right-part .ul-3 li{
+	color: #fff;
+	word-spacing: 2px ;
+	padding: 0.5em;
+	font-size: 20px ;
+}
+.footer .right-part .ul-3 li i{
+	color:#efb952 ;
+}
+.footer .right-part .copyright{
+	color: #fff;
+	padding: 2em ;
+}
+/*css regarding footer ends here */
