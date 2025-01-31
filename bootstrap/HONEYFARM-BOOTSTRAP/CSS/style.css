@@ -1,0 +1,207 @@
+/*---css for header --*/
+header .list{
+    list-style: none;
+    margin: 0;
+}
+header .h-0{
+    height: 5em ;
+}
+header .product-dropdown{
+    display: none;
+	position: absolute;
+}
+header li:hover .product-dropdown{
+    display: block;
+}
+header .product{
+    border-bottom: 2px solid #d1a044;
+}
+header .product-1{
+    border-bottom: 2px solid white ;
+    transition: 1s;
+}
+header .product-1:hover{
+    border-bottom: 2px solid #d1a044;
+}
+header .product-dropdown li:hover{
+    display: block!important;
+    color: #d1a044!important ;
+}
+  #bg-image{
+    background-image: linear-gradient(to left, rgba(186,186, 186, .01), rgba(255, 245, 252, 0.55)),
+	url('../images/honeyglassbox.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    width: 100%!important;
+}
+header .heading {
+    font-size: 4.5em;
+    font-weight: 750;
+    word-spacing: 0px ;
+}
+header .logo-img{
+    height: 8em;
+    width: 9rem!important;
+    position: absolute;
+    left:42em ;
+}
+header img{
+    height: 10em;
+    width: 5rem;
+}
+header .icons{
+    border: 2px solid #a37137;
+    color: #a37137;
+}
+header .icons:hover{
+    opacity: 0.6;
+}
+header .all-button{
+    background-color: #f1c36d;
+	color:#58260f; 
+	border:none;
+	font-size: 17px ;
+	border-radius: 23px ;
+	padding:10px 21px ;
+	transition: 0.8s;
+    display: inline-block;
+}
+header .all-button:hover{
+	background-color:#d1a044 ;
+    color:#c1c1c1;
+}
+header .all-button-2{
+    font-size: 20px ;
+	border: 2px solid #f1c36d;
+	border-radius: 70px;
+	padding: 8px 15px ;
+	transition: 1s;
+}
+header .all-button-2:hover{
+    background-color: #f1c36d;
+}
+header .card img{
+    width: 70px ;
+    height: 85px ;
+    text-align: center;
+    margin-left: 8rem!important;
+}
+header .card .space-cards {
+    width: 10px!important;
+} 
+header .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*---css for header ends here--*/
+/* css for main part  starts here */
+main .bg-image-24{
+    background-image: url('../IMAGES/honey-and-pollen.jpg');
+    background-size: 100%;
+    height: 60vh ;
+	width: 44vw;
+}
+main .about-img{
+    size: 100%;
+	height: 13em ;
+	width: 12em ;
+	position: absolute;
+	margin-left: 15em ;
+}
+main .all-button{
+    background-color: #f1c36d;
+	color:#58260f; 
+	border:none;
+	font-size: 17px ;
+	border-radius: 23px ;
+	padding:10px 21px ;
+	transition: 0.8s;
+}
+main .all-button:hover{
+    background-color:#d1a044 ;
+    color:#c1c1c1;
+}
+main .text-color{
+    color: #bc9564;
+}
+main .bg-image-natural-honey{
+    background-image:linear-gradient(to left, rgb(45 44 44 / 44%), rgb(10 9 9 / 78%)), url('../IMAGES/honey-and-honeycomb-slice.jpg');
+    height: 80vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+    margin-top: 8em;
+}
+main .card-width{
+    width: 19em!important ;
+    margin: .78em ;
+    transform: 0.5s;
+}
+main .card-width:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main .card-bg-image{
+    background-image: url('../images/composition.jpg');
+	height: 33em ;
+	width: 22em ;
+	background-repeat: no-repeat;
+}
+main .list{
+    list-style: none;
+    margin: 0;
+}
+main .width-product{
+    width: 48rem!important ;
+}
+main .card-position{
+    position: relative;
+    left: 8rem;
+    top: 6rem ;
+}
+main .bg-image-benifit{
+    background-image: linear-gradient(to left, #fff, #ffffffe5),linear-gradient(to right, #fff0, #ffffffa5),
+	url('../images/hexagons-1.jpg');
+	background-repeat: repeat;
+}
+main .bg-promotion{
+    background-image: url('../IMAGES/composition.jpg');
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 70vh;
+	width: 100%;
+	margin: 0;
+}
+main .bg-review{
+    background-image: url('../IMAGES/World-Map-a.jpg');
+    background-repeat: no-repeat;   
+}
+main .card-bg-color{
+    background-color: #fbf9f6;
+}
+main .card-image-blog{
+    height: 168px ;
+    width: 168px ;
+}
+/*--css for main part ends here ---*/
+/*----css for footer section starts here---*/
+.bg-footer{
+    background-image: linear-gradient(to left, #180e03e6, #180e03e6),
+	url('../images/hexagons-1.jpg');
+	background-repeat: repeat;
+    width: 100%;
+}
+.border-footer{
+    border: 2px dotted black ;
+}
+footer .list{
+    list-style: none;
+    margin: 0;
+}
+footer .text-color{
+    color:#bc9564 ;
+}
+footer .list .hover:hover{
+    color:#d1a044!important;
+}
+/*-----css  for footer ends here-----*/
