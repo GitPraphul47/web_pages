@@ -1,0 +1,137 @@
+.ls-n{
+    list-style: none;
+}
+.project-dropdown{
+    display:none;
+    margin-left: -2rem ;
+    position: absolute;
+}
+li:hover .project-dropdown {
+    display: block!important;
+}
+.list:hover{
+    background-color: #35b34a!important;
+}
+.border-btm{
+    border-bottom: 2px solid  #fff!important;
+}
+.border-btm:hover{
+    border-bottom: 2px solid  #35b34a!important;
+}
+.bg-img-1{
+    background-image: url('../IMAGES/girl-1.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.color{
+    color: #35b34a!important;
+}
+.bg-color{
+    background-color: #35b34a!important;
+}
+.bg-img-1 .fs-1{
+    font-size: 5em!important;
+}
+.draw-pose{
+    position:absolute;
+    height: 12em!important ;
+    width: 12em!important;
+    z-index: 3;
+}
+.draw-pose1{
+    position:absolute;
+    height: 12em!important ;
+    width: 12em!important;
+    transform: rotate(45deg);
+}
+.draw-pose2{
+    position:absolute;
+    height: 12em!important ;
+    width: 12em!important;
+    transform: rotate(65deg);
+}
+.draw-pose3{
+    position:absolute;
+    height: 12em!important ;
+    width: 12em!important;
+    transform: rotate(25deg);
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+}
+.text-grey{
+    color: #b8b7b7;
+}
+.bg-blue{
+    background-color: #eaf7ed;
+    border-left: 4px solid #35b34a ;
+}
+.bg-blue1{
+    background-color: white;
+    border-left: 4px solid white ;
+    border-bottom: 4px solid white;
+}
+.bg-btm-green{
+    border-bottom: 4px solid #35b34a;
+}
+.bg-blue1:hover{
+    background-color: #eaf7ed;
+    border-left: 4px solid #35b34a ;
+}
+.w-30{
+    width: 20rem ;
+}
+.bg-img-2{
+    background-image:url('../IMAGES/girl-with-table.jpg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+.bg-img-2 .fs-1{
+    font-size: 6em!important;
+}
+.bg-img-3{
+    background-image:linear-gradient(to left, rgb(45 44 44 / 44%), rgb(10 9 9 / 78%)),
+     url('../IMAGES/freeimage.jpg');
+     height: 85vh ;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+.bg-img-3 .fs-1{
+    font-size: 15em!important;
+}
+.contact:hover{
+    color: black!important;
+}
+.img-card{
+    height:60px!important;
+    width: 60px!important;
+}
+.accordian::after{
+    content: '\002B'!important;
+    font-weight: bold;
+    text-align: end!important;
+}
+.active:after{
+    content:"\2212"!important; 
+}
+.panel{
+    display: none;
+}
+.outline{
+    border-bottom: 1px solid #35b34a;
+    outline: none;
+    color: #35b34a!important;
+}
+.outline:hover{
+    border-bottom: 1px solid #35b34a!important;
+}
+.topbtn{
+    position: fixed;
+    bottom: 1em;
+    float: right!important;
+}
