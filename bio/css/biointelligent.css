@@ -1,0 +1,1490 @@
+
+body {
+	font-family: sans-serif;
+	width:100%;
+}
+
+/*---------------------------------------------------- css for top nav bar--------------------------------------*/
+.navbar-1{
+	background:#35b34a; 
+	height:24px ;
+	width: 100%;
+	text-align: center;
+	color: white ;
+/*	font-family: Calibri  ;*/
+	font-size: 20px ;
+	padding: 5px ;
+	font-weight:1;
+}
+
+.navbar-1 .anchor{
+	color: white;
+}
+/* css for top nav bar ends here*/
+
+/*using css for second nav bar */
+
+.navbar-2{
+	height:83px ;
+	position: sticky;
+	width:100%;
+	background-color: white;
+	
+}
+
+
+.navbar-2 .programs{
+	float:right ;
+	position: relative ;
+	right : 7rem;
+	display: inline-block ;
+
+
+}
+.navbar-2 .programs .programs-list{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	position: relative ;
+   	 left: 0rem;
+	
+}
+.navbar-2 .programs .programs-list .anchor{
+	text-decoration: none;
+	color: black;
+	
+}
+.navbar-2 .programs .programs-list .programs-dropdown{
+	list-style: none;
+	display: none ;
+	width: 10em ;
+	position: absolute;
+	z-index: 1;
+	padding-top: 27px ;
+	padding-left: 0px ;
+	height: 5rem ;
+}
+
+.navbar-2 .programs .programs-list:hover .programs-dropdown{
+	display: block;
+}
+.navbar-2 .programs .programs-list .programs-dropdown .anchor{	
+	color:white ;
+} 
+.navbar-2 .programs .programs-list .programs-dropdown .ideal-protein {
+	padding:13px 3px ;
+	background-color: #35b34a;
+
+}
+
+.navbar-2 .programs .programs-list .programs-dropdown .ideal-protein:hover{
+	background-color: #4f9e5c;
+
+}
+
+.navbar-2 .programs .programs-list .patient-forms{
+	text-decoration: none;
+	color: black;
+	padding-bottom: 26px ;
+}
+
+.navbar-2 .programs .programs-list .patient-forms:hover {
+		background-color:white ;
+		border-bottom: 3px solid #35b34a ;
+}
+.navbar-2 .programs .programs-list .B2B-dropdown  {
+			list-style: none;
+			display: none ;
+			width: 10em ;
+			position: absolute;
+/*			z-index: 1;*/
+			padding-top: 27px ;
+			padding-left: 0px ;
+			height: 5rem ;
+
+} 
+
+.navbar-2 .programs .programs-list:hover .B2B-dropdown {
+	display: block;
+}
+.navbar-2 .programs .programs-list .B2B-dropdown .provider{
+	padding:13px 3px ;
+	background-color: #35b34a;
+}
+
+.navbar-2 .programs .programs-list .B2B-dropdown .provider .anchor {
+	color: white;
+	text-decoration: none;
+
+}
+
+.navbar-2 .programs .programs-list .B2B-dropdown .provider:hover{
+	background-color: #4f9e5c;
+}
+/*css for button tag */
+.navbar-2 .programs .button {
+		background-color: #35b34a;
+		border: 3px solid #35b34a ;
+		padding: 20PX 33PX ;
+		color: white;
+		font-weight: bold;
+
+}
+
+/*----------------------------------------------css for second nav bar ends here------------------------ */ 
+
+/*------------------------------------------------------css for main tag  --------------------------------------*/
+.main-page{
+margin: 0px ;
+padding: 0px ;
+position: absolute;
+}
+.main-page .section-image-1{
+	margin:0px ;
+padding: 0px ;
+display: block;
+position:relative;
+
+}
+
+
+/*CSS  FOR girl image and text in images */
+	.main-page .section-image-1 .bg-image{
+		background-image: url("../images/girl-1.jpg");
+		background-repeat:no-repeat;
+		background-size: 100%;
+		width:100vw;
+		position: absolute;
+		height:100vh ;
+		padding: 10px 0px 0px 0px  ;
+		margin: 0px ;
+		z-index: -1;
+	}
+	 .main-page .section-image-1 .bg-image .para{
+	 	position: absolute;
+	 	left: 7em ;
+	 	top: 2em ;
+	 }
+
+	.main-page .section-image-1 .bg-image  .heading-help {
+		font-weight: 800;
+		font-size: 62px ;
+
+	}
+
+	 .main-page .section-image-1 .bg-image .para .paragraph{
+		font-size: 20px ;
+		color: #000206;
+	}
+	.main-page .section-image-1 .bg-image .para .paragraph-1{
+		font-size: 30px ;
+		font-weight: 700;
+	}
+		 .main-page .section-image-1 .bg-image .para .green-button{
+		 	background-color:#35b34a ;
+		 	font-size: 16px ;
+		 	font-weight: 600;
+		 	color: white;
+		 	padding: 10px ;
+		 	border: 2PX solid #35b34a;
+		 }
+
+	.main-page .section-image-1 .bg-image .para-bg-green{
+		position:absolute;
+		left: 74em;
+		top: 13em ;
+
+		}
+ 	.main-page .section-image-1 .bg-image .para-bg-green .green-bg{
+ 		height: 200px ;
+ 		width: 200px ;
+ 		background-color:#35b34a ;
+ 		position: absolute;
+ 		z-index: -3;
+ 	}
+ 	.main-page .section-image-1 .bg-image .para-bg-green .green-bg-1{
+ 		height: 200px ;
+ 		width: 200px ;
+ 		background-color:#35b34a ;
+ 		transform: rotate(45deg);
+ 		position: absolute;
+ 		z-index: -3;
+ 	}
+ 	.main-page .section-image-1 .bg-image .para-bg-green .green-bg-2{
+ 		height: 200px ;
+ 		width: 200px ;
+ 		background-color:#35b34a ;
+ 		position: absolute;
+ 		transform: rotate(61deg);
+ 		z-index: -3;
+ 	}
+ 	.main-page .section-image-1 .bg-image .para-bg-green .green-bg-3{
+ 		height: 200px ;
+ 		width: 200px ;
+ 		background-color:#35b34a ;
+ 		position: absolute;
+ 		transform: rotate(32deg);
+ 		z-index: -3;
+ 	}
+ 	.main-page .section-image-1 .bg-image .para-bg-green .green-bg-4{
+ 		height: 200px ;
+ 		width: 200px ;
+ 		background-color:#35b34a ;
+ 		position: absolute;
+ 		transform: rotate(17deg);
+ 		z-index: -3;
+ 	}
+
+.main-page .section-image-1 .bg-image .para-bg-green .green-bg-5{
+ 		height: 200px ;
+ 		width: 200px ;
+ 		background-color:#35b34a ;
+ 		position: absolute;
+ 		transform: rotate(77deg);
+ 		z-index: -3;
+ 	}
+ 	.main-page .section-image-1 .bg-image .para-bg-green .green-text{
+ 		color: white;
+ 		font-size: 26px ;
+ 		text-align: center;
+ 		font-weight: 700;
+ 		position: relative;
+ 		top: 50px ;
+
+ 	} 	
+ 	.main-page .section-image-1 .bg-image .para-bg-green .green-text .anchor{
+ 		color: white;
+ 		text-decoration: none;
+ 	}
+ 	.main-page .section-image-1 .bg-image .para-bg-green .green-text .anchor:hover{
+ 		color: blue;
+ 	}
+/*css for girl image here */
+
+
+/*-------css regarding 3 images in hover effect with box shadow------*/
+.main-page .section-image-1 .images3{
+	display: block;
+	position: relative;
+	top: 37rem;
+	left: 20em ;
+	text-align: center;
+}
+.main-page .section-image-1 .images3 .image-diamond {
+	height: 80px ;
+	width: 271px ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 70px 0px ;
+	display: inline-block;
+	margin: 0.5em ;
+    position: relative;
+    bottom: 8px;
+
+}
+
+.main-page .section-image-1 .images3 .image-diamond .anchor{
+	 text-decoration: none; 
+	 font-weight: bolder;
+	 color: black;
+}
+
+.main-page .section-image-1 .images3 .image-diamond .anchor div{
+	padding-top: 5px ;
+}
+
+
+.main-page .section-image-1 .images3 .image-diamond:hover{
+	box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2), 0 18px 29px 0 rgba(0, 0, 0, 0.19);
+
+}
+.main-page .section-image-1 .images3 .image-diamond1 {
+	height: 80px ;
+	width: 271px ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 70px 0px ;
+	display: inline-block;
+	margin: 0.5em ;
+	position:relative;
+	bottom: 23px ;
+
+}
+.main-page .section-image-1 .images3 .image-diamond1 .anchor{
+	 text-decoration: none; 
+	 font-weight: bolder;
+	 color: black;
+}
+.main-page .section-image-1 .images3 .image-diamond1 .anchor div{
+	padding-top: 15px ;
+}
+.main-page .section-image-1 .images3 .image-diamond1:hover{
+	box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2), 0 18px 29px 0 rgba(0, 0, 0, 0.19);
+
+}
+.main-page .section-image-1 .images3 .image-diamond2 {
+	height: 80px ;
+	width: 271px ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 70px 0px ;
+	display: inline-block;
+	margin: .5em ;
+	position: relative;
+	bottom: 17px ;
+
+}
+.main-page .section-image-1 .images3 .image-diamond2 .anchor{
+	 text-decoration: none; 
+	 font-weight: bolder;
+	 color: black;
+}
+.main-page .section-image-1 .images3 .image-diamond2 .anchor div{
+	padding-top: 15px ;
+}
+.main-page .section-image-1 .images3 .image-diamond2:hover{
+	box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2), 0 18px 29px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/*---------------------------css regarding 3 images in hover effect with box shadow ends here-----------------*/
+
+/*----------------------------------------css for text of help -----------------------------------------------*/
+
+.main-page .paragraph-2 {
+	position: relative;
+	top:37em ;
+	left: 7em ;
+
+}
+.main-page .paragraph-2 .para-color {
+	color: #9d9c9c;
+	font-size: 15px ;
+	padding-bottom:30px  ;
+}
+
+.main-page .paragraph-2 .para-heading-text{
+	color: black;
+	font-size: 42px ;
+	font-weight: 600;
+}
+.main-page .paragraph-2 .span-programs{
+	padding:20px 5px ;
+}
+.main-page .paragraph-2 .span-programs .programs {
+	font-size: 25px;
+	padding-top:18px ;
+	font-weight:100 ;
+}
+
+.main-page .paragraph-2 .span-programs .view-programs{
+	float: right;
+	position: relative;
+	left: 31em ;
+}
+
+.main-page .paragraph-2 .span-programs .view-programs .anchor {
+	text-decoration: none;
+	color: #35b34a ;
+	font-size: 25px ;
+	font-weight: 100;
+}
+.main-page .paragraph-2 .span-programs .view-programs:hover .anchor{
+	border: 3px solid #35b34a;
+	border-top: none;
+	border-left: none;
+	border-right: none;	 
+}
+
+
+/*--------------------------------text part of how to help to view all programs ends here------------------- */
+
+/*---------------------------------------css for look better and slider part ------------------------------- */
+/*hover part*/
+.main-page .hover-slider{	
+	position: relative;
+	margin: 0px ;
+	padding: 0px ;
+	top: 38em ;
+	left: 6em ;
+
+}
+.main-page .hover-slider .hover-look {
+	margin: 0px ;
+	display: inline-block;
+}
+
+.main-page .hover-slider .hover-look .look-better {
+	height: 90px;
+	background-color: #eaf7ed;
+	border-left:3px solid #35b34a ;
+
+}
+
+.main-page .hover-slider .hover-look .look-better1 {
+	height: 90px;
+	border-left:3px solid white ;
+
+}
+.main-page .hover-slider .hover-look .look-better .anchor{
+ 	text-decoration: none ;
+ 	color:black;
+ 	font-size: 22px ;
+ 	padding: 33px ;
+ 	POSITION: RELATIVE;
+    TOP: 20PX;
+}
+.main-page .hover-slider .hover-look .look-better1 .anchor{
+ 	text-decoration: none ;
+ 	color:black;
+ 	font-size: 22px ;
+ 	padding: 33px ;
+ 	POSITION: RELATIVE;
+    TOP: 31PX;
+}
+
+.main-page .hover-slider .hover-look .look-better .anchor .img-vector{
+	height: 35px  ;
+	width: 35px  ;
+	padding: 0px ;
+	margin: 0px ;
+	position: relative;
+    top: 10px;
+}
+
+.main-page .hover-slider .hover-look .look-better1 .anchor .img-vector{
+	height: 35px  ;
+	width: 35px  ;
+	padding: 0px ;
+	margin: 0px ;
+	position: relative;
+    top: 10px;
+}
+
+.main-page .hover-slider .hover-look .look-better1 .anchor .img-heart{
+	height: 26px  ;
+	width: 35px  ;
+	padding: 0px ;
+	margin: 0px ;
+	position: relative;
+    top: 9px;
+}
+
+.main-page .hover-slider .hover-look .look-better1 .anchor .img-star{
+	height: 28px  ;
+	width: 38px  ;
+	padding: 0px ;
+	margin: 0px ;
+	position: relative;
+    top: 4px;
+}
+
+.main-page .hover-slider .hover-look .look-better1:hover {
+	border-left:3px solid #35b34a ;
+	height: 90px;
+	background-color: #eaf7ed;
+
+}
+/*hover part ends here */
+
+/*slider part starts here*/
+.main-page .hover-slider .slider-cards {
+display:inline-block ;
+position: absolute;
+width: auto;
+display: inline-flex;
+width: 69rem ;
+height: 28.2em ;
+
+}
+
+.main-page .hover-slider .slider-cards .image-1{
+	height: 27em ;
+	max-width: 365px ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 0px 0px ;
+	display: inline-block;
+	margin-left: 0.7em ;
+	text-align: justify;
+	display: inline-block;
+}
+
+.main-page .hover-slider .slider-cards #image-1{
+	height: auto ;
+	max-width: 364px  ;
+	
+}
+.main-page .hover-slider .slider-cards .image-1 .para{
+	padding: 10px ;
+	width: 350px ;
+}
+.main-page .hover-slider .slider-cards .image-1 .para p{
+	font-size: 16px ;
+}
+.main-page .hover-slider .slider-cards .image-1 .para .anchor{
+	text-decoration: none;
+	color: #35b34a ;
+	padding: 40px 0px  60px ;
+	display: inline-flex;
+}
+
+.main-page .hover-slider .slider-cards .image-2{
+	height: 27em ;
+	max-width: 365px ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 0px 0px ;
+	display: inline-block;
+	margin-left: 0.7em ;
+	text-align: justify;
+		display: inline-block;
+}
+
+.main-page .hover-slider .slider-cards #image-2{
+	height: auto ;
+	max-width: 365px  ;
+	
+}
+.main-page .hover-slider .slider-cards .image-2 .para{
+	padding: 10px ;
+	width: 350px ;
+}
+.main-page .hover-slider .slider-cards .image-2 .para p{
+	font-size: 16px ;
+}
+.main-page .hover-slider .slider-cards .image-2 .para .anchor{
+	text-decoration: none;
+	color: #35b34a ;
+	padding: 40px 0px  60px ;
+	display: inline-flex;
+}
+
+
+.main-page .hover-slider .slider-cards .image-3{
+	height: 27em ;
+	max-width: 365px ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	padding: 0px 0px ;
+	display: inline-block;
+	margin-left: 0.7em ;
+	text-align: justify;
+		
+}
+.main-page .hover-slider .slider-cards #image-3{
+	height: auto ;
+	max-width: 364px  ;
+
+}
+.main-page .hover-slider .slider-cards .image-3 .para{
+	padding: 15px ;
+	width: 350px ;
+
+}
+.main-page .hover-slider .slider-cards .image-3 .para p{
+	font-size: 16px ;
+}
+
+.main-page .hover-slider .slider-cards .image-3 .para .anchor{
+	text-decoration: none;
+	color: #35b34a ;
+	padding: 40px 0px  60px ;
+		display: inline-flex;
+}
+
+.main-page .hover-slider .slider-cards .image-4{
+	height: 27em ;
+	max-width: 365px ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	padding: 0px 0px ;
+	display: inline-block;
+	margin-left: 0.7em ;
+	text-align: justify;
+		
+}
+.main-page .hover-slider .slider-cards #image-4{
+	height: auto ;
+	max-width: 364px  ;
+
+}
+.main-page .hover-slider .slider-cards .image-4 .para{
+	padding: 15px ;
+	width: 350px ;
+	
+}
+.main-page .hover-slider .slider-cards .image-4 .para p{
+	font-size: 16px ;
+}
+.main-page .hover-slider .slider-cards .image-4 .para .anchor{
+	text-decoration: none;
+	color: #35b34a ;
+	padding: 40px 0px  60px ;
+	display: inline-flex;
+}
+
+
+.main-page .hover-slider .slider-cards .image-5{
+	height: 27em ;
+	max-width: 365px ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	padding: 0px 0px ;
+	display: inline-block;
+	margin-left: 0.7em ;
+	text-align: justify;
+		
+}
+.main-page .hover-slider .slider-cards #image-5{
+	height: auto ;
+	max-width: 364px;
+
+}
+.main-page .hover-slider .slider-cards .image-5 .para{
+	padding: 15px ;
+}
+.main-page .hover-slider .slider-cards .image-5 .para p{
+	font-size: 16px ;
+}
+
+.main-page .hover-slider .slider-cards .image-5 .para .anchor{
+	text-decoration: none;
+	color: #35b34a ;
+	padding: 40px 0px  60px ;
+	display: inline-flex;
+}
+
+
+.main-page .hover-slider .slider-cards .image-6{
+	height: 27em ;
+	max-width: 365px ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	padding: 0px 0px ;
+	display: inline-block;
+	margin-left: 0.7em ;
+	text-align: justify;
+		
+}
+.main-page .hover-slider .slider-cards #image-6{
+	height: auto ;
+	max-width: 350px  ;
+
+}
+.main-page .hover-slider .slider-cards .image-6 .para{
+	padding: 15px ;
+}
+.main-page .hover-slider .slider-cards .image-6 .para p{
+	font-size: 16px ;
+}
+
+.main-page .hover-slider .slider-cards .image-6 .para .anchor{
+	text-decoration: none;
+	color: #35b34a ;
+	padding: 40px 0px  60px ;
+	display: inline-flex;
+}
+/*slider part ends here */
+
+
+
+/*-----------------------------------css for look better and slider part ends here ---------------------------------*/
+
+
+/*---------------- css regarding background image with old lady and ideal protein text------------ */
+.main-page .section-image-2 {
+	padding: 0px ;
+	margin: 0px ;
+	position: absolute;
+	top:97rem ;
+}
+.main-page .section-image-2 .bg-image{
+		background-image: url("../images/girl-with-table.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		height: 100vh;
+		width: 100vw;
+}
+
+.main-page .section-image-2 .bg-image .text-ideal{
+	padding: 7rem ;
+}
+
+.main-page .section-image-2 .bg-image .text-ideal .heading-ideal{
+	font-size: 70px ;
+}
+
+.main-page .section-image-2 .bg-image .text-ideal .para{
+	font-size: 20px ;
+	letter-spacing: 1px ;
+	font-weight: 100;
+	font-family:Calibri Light;
+	margin-top: -11px   ;
+
+}
+
+.main-page .section-image-2 .bg-image .text-ideal .learn-button{
+	padding: 21px  35px  ;
+	background-color: #35b34a ;
+	border-color: #35b34a;
+	color: white ;
+	letter-spacing: 2px ;
+	font-size: 18PX ;
+	font-weight: 600;
+	margin-top: 40px ;
+	border-radius: 5px ;
+}
+
+/*----------- css regarding background image with old lady and ideal protein text ends here---------- */
+/*--------------------------------------using css for 3cards for and text ------------------*/
+
+.main-page .three-cards {
+	margin: 0px ;
+	padding: 0px ;
+	position: absolute;
+	top:140em ;
+}
+ .main-page .three-cards .cards-text{
+ 	margin-left: 7em;
+ 	display: inline-block;
+ }
+
+.main-page .three-cards .cards-text .para {
+		color: grey ;
+		font-size: 15px ;
+
+}
+.main-page .three-cards .cards-text .heading-text{
+	font-size: 38px;
+}
+
+.main-page .three-cards .text-view{
+	display: inline-block;
+}
+
+.main-page .three-cards .text-view .anchor{
+	text-decoration: none;
+	color: #35a34b;
+	font-size: 20px ;
+	position: relative;
+	left: 36em ;
+}
+.main-page .three-cards .text-view .anchor:hover{
+	border-bottom: 2px solid #35a34b ;
+}
+.main-page .three-cards .phase-cards{
+	display: inline-flex;
+	position: relative;
+    left: 92px;
+}
+
+.main-page .three-cards .phase-cards .phase-card-1{
+	height: 20em  ;
+	width: 22em ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: inline-block;
+	margin-left: 2.0em ;
+	text-align: justify;
+		padding: 20px 30px;
+}
+.main-page .three-cards .phase-cards .phase-card-1:hover{
+	box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 9px 27px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-page .three-cards .phase-cards .phase-card-1 .para{
+	color: grey;
+	font-size: 15px ;
+
+
+}
+
+.main-page .three-cards .phase-cards .phase-card-1 .para-2 {
+	font-size: 45PX ;
+	font-weight: 600;
+	font-family: calibri;
+}
+
+.main-page .three-cards .phase-cards .phase-card-1 .para-3{
+	font-family:Calibri Light;
+	font-size: 17px ;
+}
+.main-page .three-cards .phase-cards .phase-card-1 .anchor{
+	color: #35a34b;
+	text-decoration: none;
+	position: relative;
+	top: 4em;
+	font-weight: bold;
+
+}
+/*--------------------css for 3cards and text ends here---------------------------------------------*/
+/*--------------css for corporate wellnes both text and images part--------------------*/
+
+.main-page .wellness {
+padding:0px  ;
+margin: 0px ;
+position: absolute;
+top: 180em ;
+}
+.main-page .wellness .left{
+	display: inline-block;
+}
+
+.main-page .wellness .left .para{
+	color: grey ;
+	margin-left: 9em ;
+	font-size: 13px ;
+
+}
+
+.main-page .wellness .left .heading-wellness{
+	margin-left: 3em ;
+	font-size: 40px ;
+}
+.main-page .wellness .right{
+display: inline-block;
+position: relative;
+left: 50em ;
+}
+.main-page .wellness .right .anchor{
+text-decoration: none ;
+color: #35a34b; 
+font-size: 20px ;
+}
+
+.main-page .wellness .right .anchor:hover{
+	border-bottom: 2px solid #35a34b ;
+}
+
+.main-page .wellness .text-images1{
+  padding: 0px 8.5em ;
+  display: inline-flex;
+
+
+}
+
+.main-page .wellness .text-images1 .text{
+	width: 24rem ;
+}
+
+
+.main-page .wellness .text-images1 .text .top{
+	font-size: 15px ;
+	color: black;
+	padding-left: 3px ;
+
+}
+
+.main-page .wellness .text-images1 .text .heading{
+	font-size: 40px ;
+	color: #35a34b;
+	font-family: calibri;
+}
+
+.main-page .wellness .text-images1 .text .para {
+	font-family:calibri Light ;
+	font-size: 18px ;
+	padding-bottom:79px ;
+}
+
+
+.main-page .wellness .text-images1 .text .anchor {
+ color: #35a34b;
+ text-decoration: none;
+ font-size: 18px ;
+}
+
+.main-page .wellness .text-images1 .text .anchor .arrow {
+width: 25px ;
+position: relative;
+bottom: -4px ;
+}
+
+.main-page .wellness .text-images1 .image-1 {
+	display: inline-block;
+	position :relative  ;
+	left: 3em ;
+}
+
+
+
+
+.main-page .wellness .text-images2{
+  padding: 5em  8.5em ;
+  display: inline-flex;
+
+
+}
+
+.main-page .wellness .text-images2 .text{
+	width: 24rem ;
+	padding-left: 44px ;
+}
+
+
+.main-page .wellness .text-images2 .text .top{
+	font-size: 15px ;
+	color: black;
+	padding-left: 3px ;
+
+}
+.main-page .wellness .text-images2 .text .heading{
+	font-size: 40px ;
+	color: #35a34b;
+	font-family: calibri;
+}
+.main-page .wellness .text-images1 .text .para {
+	font-family:calibri Light ;
+	font-size: 18px ;
+	padding-bottom:79px ;
+}
+.main-page .wellness .text-images2 .text .anchor {
+ color: #35a34b;
+ text-decoration: none;
+ font-size: 18px ;
+
+}
+.main-page .wellness .text-images2 .text .anchor .arrow {
+width: 25px ;
+position: relative;
+bottom: -4px ;
+}
+.main-page .wellness .text-images2 .image-1 {
+	display: inline-block;
+	position :relative  ;	
+}
+/*--------------css for corporate wellnes both text and images part ends here --------------------*/
+/*----------------------------------------------css regarding success stories------------------- */
+.main-page .success {
+	position: absolute;
+	top: 251rem;
+	margin: 10px 9rem;
+}
+.main-page .success .upper-text{
+
+}
+.main-page .success .upper-text .head{
+	color: grey ;
+	font-size: 15px ;
+}
+.main-page .success .upper-text .para{
+	display: inline-flex;
+} 
+.main-page .success .upper-text .para .heading-help{
+	font-family: calibri;
+	font-size: 42px ;
+	display: inline-block;
+	width: 46rem;
+}
+.main-page .success .upper-text .para .anchor{
+	text-decoration: none;
+	color: #35a34b;
+	font-size: 20px ;
+	display: inline-block;
+	width: 6rem;
+	position: relative;
+	top: 7rem;
+	left: 27rem;
+	height: 1em;
+}
+.main-page .success .upper-text .para .anchor:hover{
+	border-bottom: 2px solid #35a34b;
+}
+.main-page .success .lower-text {
+
+	height: 23em ;
+	width:78rem  ;
+	padding: 1em 10px ;
+	display: inline-flex;
+	position: relative;
+	
+}
+.main-page .success .lower-text .card {
+	height: 21em;
+	max-width: 36em;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 0px 0px ;
+	margin-left: 0.7em ;
+	text-align: justify;
+	cursor: pointer;
+	position: relative;
+}
+.main-page .success .lower-text .card:hover{
+box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.main-page .success .lower-text .card .top{
+	display: flex;
+	margin: 33px 20px;
+	width: 36em ;
+}
+.main-page .success .lower-text .card .top img{
+	border-radius: 50%;
+	height: 69px ;
+	width: 69px ;
+}
+.main-page .success .lower-text .card .top p{
+	font-size: 24px ;
+	font-weight: bold;
+	margin-left: 10px ;
+}
+.main-page .success .lower-text .card p{
+	font-family: calibri Light;
+	margin-left: 20px ;
+	letter-spacing: 1px ;
+}
+.main-page .success .lower-text .card p a{
+	color: #35a34b;
+	text-decoration: none;
+	border-bottom: 2px solid #35a34b;
+	padding: 7px 0px 2px ;
+	width: 36em ;
+}
+.main-page .success .lower-text .card .fa{
+	padding: 12px;
+  font-size: 22px;
+  width: 0px ;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.main-page .success .lower-text .card .fa-facebook {
+  background: white;
+  color: black;
+  margin-left: 20px ;
+}
+.main-page .success .lower-text .card .fa-instagram {
+  background: white;
+  color: black;
+}
+
+/*-------------------------------------------css regarding success stories ends here ------------------- */
+/*-------------------------------------------css regarding clinically proved starts  here ------------------- */
+.main-page .proved {
+	position: absolute;
+	top: 291rem;
+	margin: 10px 9rem;
+}
+.main-page .proved .upper-text{
+
+}
+.main-page .proved .upper-text .head{
+	color: grey ;
+	font-size: 15px ;
+}
+.main-page .proved .upper-text .para{
+	display: inline-flex;
+} 
+.main-page .proved .upper-text .para .heading-help{
+	font-family: calibri;
+	font-size: 42px ;
+	display: inline-block;
+	width: 46rem;
+}
+.main-page .proved .upper-text .para .anchor{
+	text-decoration: none;
+	color: #35a34b;
+	font-size: 20px ;
+	display: inline-block;
+	width: 6rem;
+	position: relative;
+	top: 7rem;
+	left: 27rem;
+	height: 1em;
+}
+.main-page .proved .upper-text .para .anchor:hover{
+	border-bottom: 2px solid #35a34b;
+}
+
+.main-page .proved .lower-text {
+	height: 23em ;
+	width:78rem  ;
+	padding: 1em 10px ;
+	display: inline-flex;
+	position: relative ;
+	
+}
+.main-page .proved .lower-text .card {
+	height: 21em;
+	max-width: auto   ;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 0px 0px ;
+	margin-left: 0.7em ;
+	text-align: justify;
+	position: relative;
+	cursor: pointer;
+}
+.main-page .proved .lower-text .card:hover{
+box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.main-page .proved .lower-text .card .top{
+	display: flex;
+	margin: 33px 20px;
+	width: 36em ;
+}
+.main-page .proved .lower-text .card .top img{
+	border-radius: 50%;
+	height: 69px ;
+	width: 69px ;
+}
+.main-page .proved .lower-text .card .top p{
+	font-size: 24px ;
+	font-weight: bold;
+	margin-left: 10px ;
+}
+.main-page .proved .lower-text .card p{
+	font-family: calibri Light;
+	margin-left: 20px ;
+	letter-spacing: 1px ;
+	width: 36em ;
+}
+.main-page .proved .lower-text .card p a{
+	color: #35a34b;
+	text-decoration: none;
+	border-bottom: 2px solid #35a34b;
+	padding: 7px 0px 2px ;
+}
+.main-page .proved .lower-text .card .fa{
+	padding: 12px;
+  font-size: 22px;
+  width: 0px ;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.main-page .proved .lower-text .card .fa-facebook {
+  background: white;
+  color: black;
+  margin-left: 20px ;
+}
+.main-page .proved .lower-text .card .fa-instagram {
+  background: white;
+  color: black;
+}
+/*-------------------------------------------css regarding clinically proved  ends here ------------------- */
+/*---------------css regarding free background image starts here-------- */
+.main-page .free-bgimage {
+	background-image: url('../images/freeimage.jpg');
+	margin: 2em 0em ;
+	background-size: 100%;
+	position: absolute;
+	top: 332rem ;
+	height: 70vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+/*	filter: brightness(60%);*/
+}
+.main-page .free-bgimage .text{
+	color: white ;
+	text-align: justify;
+	margin: 50px ;
+	filter: brightness();
+}
+.main-page .free-bgimage .text h1{
+	font-size: 11rem  ;
+	font-weight: bolder;
+	margin: 0px  0.3em  ;
+	padding: 0px 0px ;
+}
+.main-page .free-bgimage .text p{
+	font-size: 31px ;
+	margin: 0px 1.8em ;
+	font-weight: bold;
+}
+.main-page .free-bgimage .text button{
+	font-size: 25px ;
+    border: 2px solid white;
+    color: white;
+    margin: 1.7em 1em 1.7em 2.2em;
+    background: none;
+    padding: 7px ;
+}
+.main-page .free-bgimage .text button:hover {
+	color: #215d2d;
+	border:3px solid #215d2d;
+}
+
+/*---------------css regarding free background image ends here-------- */
+/*---------------css regarding faq's starts here-------- */
+.main-page .part-questions {
+	position: absolute;
+	top: 371rem;
+	margin: 10px 6rem;
+}
+.main-page .part-questions .upper-text{
+
+}
+.main-page .part-questions .upper-text .head{
+	color: grey ;
+	font-size: 15px ;
+}
+.main-page .part-questions .upper-text .para{
+	display: inline-flex;
+} 
+.main-page .part-questions .upper-text .para .heading-help{
+	font-family: calibri;
+	font-size: 42px ;
+	display: inline-block;
+	width: 46rem;
+}
+.main-page .part-questions .lower-text {
+padding: 0px ;
+margin: 0px ;
+display: inline-flex;
+}
+.main-page .part-questions .lower-text .list{
+list-style: none;
+width: 20rem ;
+padding: 0px ;
+margin: 0px ;
+}
+.main-page .part-questions .lower-text .list li{
+	padding: 37px 14px ;
+	font-size: 20px ;
+	border-bottom: 1px solid #e0f3e3;
+	font-weight: 600;
+	border-left: 3px solid white ;
+}
+.main-page .part-questions .lower-text .list li:hover{
+	background-color:#eaf7ed ;
+	border-left: 3px solid #35a34b ;
+}
+.main-page .part-questions .lower-text .list .protein {
+	border-bottom: 3px solid #35a34b ;
+	background-color: #eaf7ed;
+}
+.main-page .part-questions .lower-text .text-accordian {
+	height: 20rem ;
+	width: 41rem ;
+	padding: 16px ;
+}
+.main-page .part-questions .lower-text .text-accordian .accordion {
+  color: #444;
+  cursor: pointer;
+  padding: 20px ;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 24px;
+  background: none;
+  border-bottom: 1px solid #35a34b;
+
+}
+.main-page .part-questions .lower-text .text-accordian .accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.main-page .part-questions .lower-text .text-accordian .active:after {
+  content: "\2212";
+}
+.main-page .part-questions .lower-text .text-accordian .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  text-align: justify;
+}
+.main-page .part-questions .lower-text .text-accordian .panel p{
+	font-family: calibri light;
+	font-size: 20px ;
+} 
+/*------------------------css regarding  ideal protein list and accordian ends here-------*/
+/*-------------css for form starts here -----*/
+.main-page .form-part {
+	position: absolute;
+	top: 431rem;
+	margin: 10px 6.5rem;
+}
+.main-page .form-part .upper-text{
+
+}
+.main-page .form-part .upper-text .head{
+	color: grey ;
+	font-size: 15px ;
+}
+.main-page .form-part .upper-text .para{
+	display: inline-flex;
+} 
+.main-page .form-part .upper-text .para .heading-help{
+	font-family: calibri;
+	font-size: 42px ;
+	display: inline-block;
+	width: 46rem;
+}
+.main-page .form-part .form {
+margin: 1px ;
+padding: 1px ;
+width: 80vw;
+}
+.main-page .form-part .form .input-details {
+margin: 0px ;
+padding: 0px ;
+}
+.main-page .form-part .form .input-details label input {
+	font-size: 20px ;
+	color: grey ;
+	border:none;
+	border-bottom: 1px solid grey ;
+	padding: 29px 20px 5px ;
+	width: 20rem ;
+	margin: 12px ;
+	outline: none ;
+}
+.main-page .form-part .form .input-details label input:hover{
+	border:none ;
+	border-bottom: 1px solid #35a34b;
+}
+.main-page .form-part .form .input-details label select{
+	padding: 29px 20px 5px ;
+	border: none ;
+	margin: 12px ;
+	border-bottom: 1px solid grey ;
+	color: grey ;
+	width: 22rem ;
+	font-size: 20px ;
+	cursor: pointer;
+	outline: none ;
+}
+.main-page .form-part .form .input-details img{
+	padding: 39px 29px 0px ;
+}
+.main-page .form-part .form .input-details .button{
+border: none;
+background: #35a34b ;
+color: white ;
+padding: 15px ;
+font-size: 22px;
+font-weight: bold;
+margin: 20px ;
+}
+/*----------------------------form section css ends here-------------------------------*/
+/*-------------------------------footer section css starts here---------------------------*/
+.footer{
+	background-color: #353535;
+	position: absolute;
+	top: 482em ;
+	margin: 0px ;
+	padding: 0px ;
+	height: 70vh ;
+	width: 100vw;
+}
+.footer .footer-bar{
+	margin: 28px 128px 10px ;
+	padding-bottom: 10px ;
+	border-bottom: 1px solid grey ;
+
+}
+.footer .footer-bar .logo {
+	height: 4em ;
+	width: 6em ;
+	display: inline-block;
+}
+
+
+.footer .footer-bar  .list {
+	list-style: none ;
+	float: right;
+		position: absolute;
+		left: 27em ;
+		display: inline-block;
+}
+.footer .footer-bar .list li{
+	display: inline-block;
+		margin: 20px ;
+}
+.footer .footer-bar  .list li a{
+	text-decoration: none;
+	color: white ;
+	font-size: 14px ;
+}
+.footer .footer-bar  button{
+	font-size: 18px ;
+	color: white ;
+	background: none ;
+	border :2px solid white ;
+	padding: 10px ;
+	position: absolute;
+	left: 71rem ;
+	margin-top: 15px ;
+	 transition-duration: 2s;
+}
+.footer .footer-bar  button:hover{
+	color: black;
+	background: white;
+
+}
+.footer .footer-list {
+	margin: 28px 100px ;
+	display: flex;
+	border-bottom: 1px solid grey ;
+	padding: 20px 0px ;
+}
+.footer .footer-list .lists{
+	margin: 10px 50px 10px 10px  ;
+}
+.footer .footer-list .lists ul{
+	list-style: none;
+}
+.footer .footer-list .lists ul li{
+	color: white ;
+	font-size: 13px ;
+	margin: 7px ;
+}
+.footer .footer-list .lists ul .h1{
+	font-size: 16px ;
+	font-weight: bold;
+}
+.footer .footer-list .lists ul .color{
+	color: #677c82;
+}
+.footer .footer-list .lists ul li a{
+	text-decoration: none;
+	color: white ;
+}
+.footer .footer-list .lists ul li a:hover {
+	color: #35a34b;
+}
+/*css for section copyright */
+.footer .copy {
+	display: inline-flex;
+	margin:10px  128px ;
+	color: #677c82;
+}
+/*css for go to top button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: none ;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  outline: #35a34b;
+}
+
+#myBtn:hover {
+  background-color: #35a34b;
+}
